@@ -1,7 +1,4 @@
 @media (width < 900px) {
-    header::after {
-        content: none;
-    }
 
     .nav__links {
         gap: 1rem;
@@ -25,6 +22,7 @@
 
     .header__image {
         grid-area: 1/1/2/2;
+        padding-right: 0.3rem;
     }
 
     .work__grid {
@@ -62,6 +60,10 @@
 
     .btn {
         right: 0;
+    }
+
+    .header__image{
+        padding-right: 0.3rem;
     }
 
     .work__grid {

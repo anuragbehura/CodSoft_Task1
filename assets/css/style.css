@@ -91,10 +91,11 @@ header {
 .double_img {
     position: absolute;
     top: 0;
-    right: 0;
-    height: 100%;
-    width: calc(50% - 15rem);
-    background-image: url(/assets/img/img1.jpg);
+    right: -10rem;
+    margin-top: 8rem;
+    height: auto;
+    width: calc(70% - 20rem);
+    /* background-image: url(/assets/img/img1.jpg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
