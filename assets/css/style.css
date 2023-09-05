@@ -88,8 +88,7 @@ header {
     position: relative;
 }
 
-header:after {
-    content: "";
+.double_img {
     position: absolute;
     top: 0;
     right: 0;
