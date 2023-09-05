@@ -88,7 +88,7 @@ header {
     position: relative;
 }
 
-header::after {
+header:after {
     content: "";
     position: absolute;
     top: 0;
